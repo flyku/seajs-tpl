@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript" src="./lib/seajs/dist/sea.js"></script>
+    <script type="text/javascript" src="./lib/seajs/dist/seajs-text.js"></script>
+    <script type="text/javascript" src="./js/test.js"></script>
+    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="./lib/layer/skin/layer.css">
+</head>
+
+<body>
+    <a class="ll" href="#####"></a>
+    <div id="companyManage"></div>
+    <form action="" id="ss"> 
+    <div><input type="text" name="sname" id="a"></div>
+    <div><input type="text" name="sname" id="b"></div>
+    </form>
+    <div id="body"></div>
+</body>
+<script type="text/javascript">
+    seajs.use('./config', function(conf) {
+        seajs.config(conf);
+        seajs.use('./js/test');
+    });
+</script>
+</html>

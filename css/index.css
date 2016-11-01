@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+    font-size: 18px;
+    font-family: "Tahoma,Arial,Helvetica,sans-serif";
+}
+
+.main {
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    margin: 50px auto;
+    background: #333;
+}
+
+a {
+	display:block;
+	width:50px;
+	height:10px;
+	background:#f00;
+}
+a.ll{
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    margin: 50px auto;
+    background: #333;
+}
